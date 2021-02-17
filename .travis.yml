@@ -1,12 +1,12 @@
 
-lang: ruby
+language: ruby
 
 rvm:
   - 2.6.3
 
 before_install:
   - gem install bundler
-  - gem install jekyll
+  - gem install jekyll html-proofer
 
 install:
   - bundle install --path vendor/bundle
@@ -15,10 +15,9 @@ before_script:
   - rm -rf public
 
 script:
-  - bundle exec jekyll build -d builded
+  - bundle exec jekyll build -d builded && htmlproofer ./_site
 deploy:
   provider: pages
-  skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   local_dir: builded
   target_branch: master
