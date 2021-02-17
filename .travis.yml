@@ -15,7 +15,7 @@ before_script:
   - rm -rf public
 
 script:
-  - bundle exec jekyll build -d builded && htmlproofer ./_site
+  - bundle exec jekyll build -d builded
 deploy:
   provider: pages
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
