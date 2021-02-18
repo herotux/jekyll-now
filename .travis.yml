@@ -1,5 +1,5 @@
 
-language: ruby
+lang: ruby
 
 rvm:
   - 2.6.3
@@ -19,6 +19,7 @@ script:
   - bundle exec jekyll build -d builded
 deploy:
   provider: pages
+  skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   local_dir: builded
   target_branch: master
