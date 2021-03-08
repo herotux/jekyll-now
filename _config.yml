@@ -95,3 +95,10 @@ osm-links:
     url: /links/
   - title: نقش subarea در ریلیشن boundary
     url: /subarea/
+
+carousel: 
+  - image: /assets/img/linuxfest.jpg
+  - image: /assets/img/linuxfest.jpg
+  - image: /assets/img/linuxfest.jpg
+  - image: /assets/img/linuxfest.jpg
+
