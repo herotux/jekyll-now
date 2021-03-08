@@ -2,7 +2,7 @@
 layout: post
 title: "جشنواره لینوکس امیرکبیر"
 description:  دوازدهمین دوره جشنواره لینوکس امیر کبیر
-category: 'لاگ'
+category: 'foss'
 active: "yes"
 evand: "#"
 github_username: "#"
