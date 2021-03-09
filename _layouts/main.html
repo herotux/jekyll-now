@@ -14,21 +14,23 @@ layout: compress
                     <div class="row">
                         {% for post in site.posts %}
                         {% if post.category == "لاگ" %}
-                        <div class="col-lg-2" >
+                        <div class="col-sm" >
                             <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                                 <div class="box-body">
                                     {% if post.image %}
-                                        
+                                    <div class="text-center">
                                             <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
                                                 <img src="{{ post.image }}" data-url="{{ post.image }}">
                                             </a>
-                                        
+                                    </div>    
                                         {% else %}
                                         
-                                            <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
+                                    <div class="text-center">
+                                        <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
                                                 <img src="/assets/img/linux-logo.png" alt="لوگو لاگ" class="post-cover"> 
                                             </a>
-                                        
+                                    </div>
+
                                         {% endif %}
                                     <div class="box-info">
                                         <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
@@ -63,18 +65,22 @@ layout: compress
                 <div class="row ">
                     {% for post in site.posts %}
                     {% if post.category == "foss" %}
-                    <div class="col-lg-2" >
+                    <div class="col-sm" >
                         <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                             <div class="box-body">
                                 {% if post.image %}
                                     
-                                        
+                                <div class="text-center">        
                                         <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
                                             <img src="{{ post.image }}" data-url="{{ post.image }}">
                                         </a>
-                                    
+                                </div>    
                                     {% else %}
-                                        <img src="/assets/img/linux-logo.png" alt="لوگو لاگ" class="post-cover"> 
+                                    <div class="text-center">
+                                        <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
+                                            <img src="/assets/img/linux-logo.png" alt="لوگو لاگ" class="post-cover">
+                                        </a>
+                                    </dive> 
                                     {% endif %}
                                 <div class="box-info">
                                     <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
