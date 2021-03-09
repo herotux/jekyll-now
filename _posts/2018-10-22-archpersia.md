@@ -10,6 +10,7 @@ wiki: "http://wiki.archusers.ir/"
 telegram: "joinchat/Hr-iU0L0r7JdCFwH0tkDtg"
 image: '/assets/img/arch.png'
 tags:
+- foss
 - distro
 - linux
 twitter_text: کاربران توزیع گنو/لینوکس آرچ ایران.

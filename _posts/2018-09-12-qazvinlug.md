@@ -8,6 +8,7 @@ github_username: "qazvinlug"
 telegram: "qazvinlug"
 site: "http://www.qazvinlug.ir/"
 tags:
+- قزوین
 - لاگ
 - لینوکس
 image: '/assets/img/qazvinlug.png'

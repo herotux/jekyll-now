@@ -9,6 +9,7 @@ github_username: "#"
 telegram: "@linuxfest"
 site: "http://linuxfest.aut.ir/"
 tags:
+- foss
 - لاگ
 - لینوکس
 - جشنواره

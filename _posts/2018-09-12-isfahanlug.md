@@ -9,6 +9,7 @@ telegram: "isfahanlug"
 twitter_username: "isflug"
 evand: "https://evand.com/organizations/ilug"
 tags:
+- اصفهان
 - لاگ
 - لینوکس
 image: '/assets/img/ilug.jpg'

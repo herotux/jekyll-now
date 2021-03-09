@@ -9,6 +9,7 @@ telegram: "joinchat/A_S41D0H2H_lRijRRQwltw"
 site: "http://mashhadlug.org"
 location: "https://www.openstreetmap.org/export/embed.html?bbox=59.5640516281128%2C36.283555880403405%2C59.57600355148316%2C36.28900424206045&layer=mapnik&marker=36.28628010878037%2C59.570027589797974"
 tags:
+- مشهد
 - لاگ
 - لینوکس
 image: '/assets/img/mashhadlug.jpg'

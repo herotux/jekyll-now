@@ -9,6 +9,7 @@ telegram: "KermanLinuxUsersGroup"
 site: "http://www.klug.ir/"
 location: "http://www.openstreetmap.org/export/embed.html?bbox=57.049955427646644%2C30.28636195093655%2C57.052948772907264%2C30.28769140019009&layer=mapnik&marker=30.287026677815383%2C57.05145210027695"
 tags:
+- کرمان
 - لاگ
 - لینوکس
 image: '/assets/img/klug.png'
